@@ -14,6 +14,7 @@ public class CustomList {
         cities.add(city);
     }
 
+
     
 //testing
     // Will be implemented later using TDD (leave blank for now)
