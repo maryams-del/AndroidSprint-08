@@ -14,9 +14,11 @@ public class CustomList {
         cities.add(city);
     }
 
-
+    public boolean hasCity(City city) {
+        return cities.contains(city);
+    }
     
 //testing
     // Will be implemented later using TDD (leave blank for now)
-    // public boolean hasCity(City city) { ... }
+
 }
