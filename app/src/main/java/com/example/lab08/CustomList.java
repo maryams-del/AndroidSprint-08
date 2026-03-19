@@ -24,6 +24,9 @@ public class CustomList {
             throw new IllegalArgumentException("This city is found in the list");
         }
     }
+    public int countCities() {
+        return cities.size();
+    }
     
 //testing
     // Will be implemented later using TDD (leave blank for now)
